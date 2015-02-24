@@ -1,0 +1,40 @@
+citHeader("To cite iqLearn in publications use:")
+
+citEntry(entry = "Article",
+  title        = "{iqLearn}: Interactive Q-Learning in {R}",
+  author       = personList(as.person("Kristin A. Linn"),
+                   as.person("Eric B. Laber"),
+                   as.person("Leonard A. Stefanski")),
+  journal      = "Journal of Statistical Software",
+  year         = "2015",
+  volume       = "64",
+  number       = "1",
+  pages        = "1--25",
+  url          = "http://www.jstatsoft.org/v64/i01/",
+
+  textVersion  =
+  paste("Kristin A. Linn, Eric B. Laber, Leonard A. Stefanski (2015).",
+        "iqLearn: Interactive Q-Learning in R.",
+        "Journal of Statistical Software, 64(1), 1-25.",
+        "URL http://www.jstatsoft.org/v64/i01/.")
+)
+
+citEntry(entry = "Article",
+  title        = "Interactive model building for Q-learning",
+  author       = personList(as.person("Eric B. Laber"),
+                            as.person("Kristin A. Linn"),
+                            as.person("Leonard A. Stefanski")),
+  journal      = "Biometrika",
+  year         = "2014",
+  volume       = "101",
+  number       = "4",
+  pages        = "831--847",
+  url          = "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4274394/",
+
+  textVersion  =
+  paste("Eric B. Laber, Kristin A. Linn, Leonard A. Stefanski (2014).",
+        "Interactive model building for Q-learning.",
+        "Biometrika, 101(4), 831-847."),
+	
+  header       = "For the underlying methods please cite the following paper:"
+)

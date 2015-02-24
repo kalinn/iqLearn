@@ -1034,6 +1034,6 @@ about meal replacement therapy for obese adolescents that informed the
 data generation model.
 
 \bibliographystyle{apalike}
-\bibliography{iq_cites.bib}
+\bibliography{iq_cites}
 
 \end{document}

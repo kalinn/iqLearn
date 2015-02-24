@@ -27,8 +27,9 @@ regimes and any proposed regime, possibly estimated from IQ- or Q-learning.
 None.
 }
 \references{
-Laber, E.B., Linn, K.A., and Stefanski, L.A. (2013). Interactive
-Q-learning. \emph{Submitted}.
+Linn, K. A., Laber, E. B., Stefanski, L. A. (2015) "iqLearn: Interactive Q-Learning in R", Journal of Statistical Software, 64(1), 1--25.
+
+Laber, E. B., Linn, K. A., and Stefanski, L. A. (2014) "Interactive model building for Q-learning", Biometrika, 101(4), 831-847.
 }
 \author{
 Kristin A. Linn <kalinn@ncsu.edu>, Eric B. Laber, Leonard A. Stefanski
