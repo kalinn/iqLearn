@@ -1,3 +1,4 @@
+exportPattern("^[[:alpha:]]+")
 S3method(plot, iqResids)
 S3method(plot, learnIQ1cm)
 S3method(plot, learnIQ1main)
