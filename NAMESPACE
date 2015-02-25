@@ -1,4 +1,7 @@
-exportPattern("^[[:alpha:]]+")
-
-
-
+S3method(plot, iqResids)
+S3method(plot, learnIQ1cm)
+S3method(plot, learnIQ1main)
+S3method(plot, learnIQ1var)
+S3method(plot, learnIQ2)
+S3method(plot, qLearnS1)
+S3method(plot, qLearnS2)
