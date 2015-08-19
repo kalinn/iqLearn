@@ -590,7 +590,7 @@ summary (fitIQ2)
 @ 
 The \code{plot()} function can be used to obtain residual diagnostic
 plots from the linear regression, shown in Figure~\ref{s2diag}.
-\begin{figure}[here!]
+\begin{figure}
 \begin{center}
 <<fig=TRUE, echo=FALSE>>=
 plot (fitIQ2)
@@ -666,7 +666,7 @@ where the first argument is the \code{learnIQ2} object. Again,
 \code{plot()} gives residual diagnostic
 plots from the fitted regression model, shown in
 Figure~\ref{s1mainDiag}. 
-\begin{figure}[here!]
+\begin{figure}
 \begin{center}
 <<fig=TRUE, echo=FALSE>>=
 plot (fitIQ1main)
@@ -725,7 +725,7 @@ fitIQ1cm = learnIQ1cm (object=fitIQ2, H1CMean=s1vars, A1=bmiData$A1,
     s1cmInts=s1cmInts); 
 @ 
 Figure (\ref{s1cmDiag}) displays the residual diagnostics produced by  \texttt{plot()}.
-\begin{figure}[here!]
+\begin{figure}
 \begin{center}
 <<fig=TRUE, echo=FALSE>>=
 plot (fitIQ1cm)
@@ -786,7 +786,7 @@ fitIQ1var = learnIQ1var (object=fitIQ1cm, H1CVar=s1vars,
 summary (fitIQ1var)
 @ 
 Figure (\ref{s1varDiag}) displays the residual diagnostics produced by \texttt{plot()}.
-\begin{figure}[here!]
+\begin{figure}
 \begin{center}
 <<fig=TRUE, echo=FALSE>>=
 plot (fitIQ1var)
@@ -822,7 +822,7 @@ used in the final $IQ$-learning step, IQ4.
 <<>>=
 fitResids = iqResids (fitIQ1var)
 @ 
-\begin{figure}[here!]
+\begin{figure}
 \begin{center}
 <<fig=TRUE, echo=FALSE>>=
 plot (fitResids)

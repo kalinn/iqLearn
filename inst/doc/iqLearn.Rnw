@@ -666,7 +666,7 @@ where the first argument is the \code{learnIQ2} object. Again,
 \code{plot()} gives residual diagnostic
 plots from the fitted regression model, shown in
 Figure~\ref{s1mainDiag}. 
-\begin{figure}[here!]
+\begin{figure}
 \begin{center}
 <<fig=TRUE, echo=FALSE>>=
 plot (fitIQ1main)
