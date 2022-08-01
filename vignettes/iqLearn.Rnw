@@ -4,7 +4,7 @@
 \usepackage{amssymb}
 \usepackage{hyperref}
 \usepackage{graphicx}
-\usepackage[utf8x]{inputenc}
+%\usepackage[utf8x]{inputenc}
 \usepackage{amsmath}
 \usepackage{amsthm}
 \usepackage{bbm}
@@ -21,6 +21,7 @@
 
   
 \begin{document}
+\SweaveOpts{concordance=TRUE}
 \title{\tt{iqLearn}: Interactive 
   Q-learning in \tt{R}} 
 \author{Kristin A. Linn, Eric B. Laber, Leonard A. Stefanski} 
